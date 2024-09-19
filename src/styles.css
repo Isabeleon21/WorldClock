@@ -44,6 +44,8 @@ main {
 h2 {
   margin-top: 20px;
   margin-bottom: 1px;
+  font-size: 25px;
+  color: orangered;
 }
 .date {
   font-size: 12px;
