@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela+Round&display=swap"
+      rel="stylesheet"/>
+  <link rel="stylesheet" href="src/styles.css" /> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.js"></script>
+    <title>World Clock</title>
+  </head>
+
+  <body>
+
+    <div class="world-clock-app">
+
+      <header>
+
+        <h1>Thru the World</h1>
+        <div class="select-countries-container">
+        <select class="select-countries" id="select-countries">
+          <option value="">Choose a City</option>
+          <option value="">New York</option>
+          <option value="">Mexico City</option>
+          <option value="">Mumbaiy</option>
+        </select>
+        </div>
+      </header>
+
+      <main>
+
+          <div class="country-container" id="mexico-city">
+            <div>
+              <h2>Mexico City 🇲🇽</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time-container">
+              <span class="time"></span>
+              </div>
+            </div>
+          
+         <div class="country-container" id="dublin">
+            <div class="name-date">
+              <h2>Dublin 🇨🇮</h2>
+              <div class="date">August 15th 2022</div>
+            </div>
+            <div class="time-container">
+              <span class="time">1:48:15</span>
+            </div> 
+        </div>
+        
+      </main>
+   
+
+    <footer>
+      Coded by
+      <a href="https://github.com/Isabeleon21" target="_blank">Isabel 🦁</a>
+      code based on
+      <a href="https://github.com/Isabeleon21/WorldClock" target="_blank"
+        >GitHub</a
+      >
+      and website based on
+      <a href="hhttps://thrutheworld.netlify.app" target="_blank">Netlify</a>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
